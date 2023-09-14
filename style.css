@@ -4,6 +4,152 @@
     margin: 0%;
     padding: 0%;
 }
-html, body{
-    background-color: purple;
+body{
+    background-color: darksalmon;
+}
+#hea{
+    width: 100vw;
+    height: 80vh;
+    background: url(imagens/alljoestar.jpg);
+    position: absolute;
+}
+#tema{
+    width: 15vw;
+    height: 10vh;
+    text-align: center;
+    color: white;
+    margin-left: 80vw;
+    margin-top: 2.5vh;
+}
+#caixa{
+    background-color: rgb(204, 59, 59);
+    font-size: 2.5vh;
+    cursor: pointer;
+}
+#caixa2{
+    background-color: black;
+    font-size: 2.5vh;
+    cursor: pointer;
+}
+#estrela{
+    width: 3vw;
+    height: 3vh;
+    margin-top: 0.5vh;
+}
+#Email{
+    position: relative;
+    left: 8vw;
+    background-color: white;
+    width: 40vw;
+    height: 60vh;
+    
+}
+#boasvindas{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3vh;
+    margin-left: 1vw;
+}
+#email2{
+    margin-top: 1vh;
+}
+@media screen and (min-width:0px) and (max-width:400px){
+    h1{
+        font-size: 3vh;
+    }
+    input{
+        font-size: 1vh;
+    }
+    p{
+        font-size: 2vh;
+    }
+}@media screen and (min-width:427px) and (max-width:500px){
+    h1{
+        font-size: 5.6vh;
+    }
+    input{
+        font-size: 1.6vh;
+    }
+    p{
+        font-size: 3vh;
+    }
+}
+@media screen and (min-width:342px) and (max-width:426px){
+    h1{
+        font-size: 5vh;
+    }
+    input{
+        font-size: 1.6vh;
+    }
+    p{
+        font-size: 2.5vh;
+    }
+}
+@media screen and (min-width:264px) and (max-width:341px){
+    h1{
+        font-size: 4vh;
+    }
+    input{
+        font-size: 1.6vh;
+    }
+    p{
+        font-size: 2.5vh;
+    }
+}
+@media screen and (min-width:0px) and (max-width:180px){
+    h1{
+        font-size: 2vh;
+    }
+    input{
+        font-size: 1vh;
+    }
+    p{
+        font-size: 2vh;
+    }
+}
+@media screen and (min-width:609px) and (max-width:966px){
+    h1{
+        font-size: 6vh;
+    }
+    input{
+        font-size: 2.5vh;
+    }
+    p{
+        font-size: 3.9vh;
+    }
+}
+@media screen and (min-width:967px) and (max-width:1183px){
+    h1{
+        font-size: 6.5vh;
+    }
+    input{
+        font-size: 3vh;
+    }
+    p{
+        font-size: 4.5vh;
+    }
+}
+@media screen and (min-width:1184px) and (max-width:3000px){
+    h1{
+        font-size: 7vh;
+    }
+    input{
+        font-size: 3vh;
+    }
+    p{
+        font-size: 5vh;
+    }
+}
+@media screen and (min-width:1700px){
+    h1{
+        font-size: 7vh;
+    }
+    input{
+        font-size: 5vh;
+    }
+    p{
+        font-size: 5vh;
+    }
 }
