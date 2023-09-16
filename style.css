@@ -242,6 +242,7 @@ body{
 #tit1{
     width: 60vw;
     height: 60vh;
+    text-align: center;
 }
 .personagem{
     width: 30vw;
@@ -258,6 +259,7 @@ body{
 #tit2{
     width: 60vw;
     height: 60vh;
+    text-align: center;
 }
 #pers2{
     background-image: url(imagens/bonecojonas.jpg);
