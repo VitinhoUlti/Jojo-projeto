@@ -24,6 +24,7 @@ body{
     color: white;
     margin-left: 80vw;
     margin-top: 2.5vh;
+    overflow: unset;
 }
 #caixa{
     background-color: rgb(204, 59, 59);
@@ -226,23 +227,38 @@ body{
         font-size: 3vh;
     }
 }
-#autor{
+.container{
     display: flex;
     width: 90vw;
     height: 60vh;
     font-size: 1vh;
     background-color: white;
     position: absolute;
+    margin-left: 2vw;
+}
+#autor{
     bottom: -60vh;
 }
 #tit1{
     width: 60vw;
     height: 60vh;
 }
-#pers1{
+.personagem{
     width: 30vw;
     height: 60vh;
     background-size: cover;
     background-position: center;
+}
+#pers1{
     background-image: url(imagens/jojo-s-bizarre-adventure-stone-ocean_cke.webp);
+}
+#jojo{
+    bottom: -140vh;
+}
+#tit2{
+    width: 60vw;
+    height: 60vh;
+}
+#pers2{
+    background-image: url(imagens/bonecojonas.jpg);
 }
