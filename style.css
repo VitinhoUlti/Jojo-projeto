@@ -264,3 +264,80 @@ body{
 #pers2{
     background-image: url(imagens/bonecojonas.jpg);
 }
+.tabela{
+    display: flex;
+    width: 90vw;
+    height: 60vh;
+    font-size: 1vh;
+    background-color: white;
+    position: absolute;
+    margin-left: 2vw;
+    border: 2px solid black;
+}
+.tj{
+    width: 60vw;
+    height: 59vh;
+    margin: 1vw;
+}
+#j1{
+    bottom: -210vh;
+}
+#j2{
+    bottom: -270vh;
+}
+#j3{
+    bottom: -330vh;
+}
+#j4{
+    bottom: -390vh;
+}
+#j5{
+    bottom: -450vh;
+}
+#j6{
+    bottom: -510vh;
+}
+#j7{
+    bottom: -570vh;
+}
+#j8{
+    bottom: -630vh;
+}
+.imagensjojo{
+    width: 30vw;
+    height: 65vh;
+}
+#jojo1{
+    background: url(imagens/jojo1.webp);
+    background-size: cover;
+}
+#jojo2{
+    background: url(imagens/jojo2.webp);
+    background-position: center top;
+}
+#jojo3{
+    background: url(imagens/jojo3.webp);
+    background-size: cover;
+    background-position: center top;
+}
+#jojo4{
+    background: url(imagens/jojo4.webp);
+    background-size: cover;
+}
+#jojo5{
+    background: url(imagens/jojo5.webp);
+    background-size: cover;
+}
+#jojo6{
+    background: url(imagens/jolyne.png);
+    background-size: cover;
+}
+#jojo7{
+    background: url(imagens/jojo7.webp);
+    background-size: cover;
+    background-position: center;
+}
+#jojo8{
+    background: url(imagens/jojo8.webp);
+    background-size: cover;
+}
