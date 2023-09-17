@@ -310,6 +310,7 @@ body{
 #jojo1{
     background: url(imagens/jojo1.webp);
     background-size: cover;
+    background-position: center top;
 }
 #jojo2{
     background: url(imagens/jojo2.webp);
@@ -323,21 +324,26 @@ body{
 #jojo4{
     background: url(imagens/jojo4.webp);
     background-size: cover;
+    background-position: center top;
 }
 #jojo5{
     background: url(imagens/jojo5.webp);
     background-size: cover;
+    background-position: center top;
 }
 #jojo6{
     background: url(imagens/jolyne.png);
     background-size: cover;
+    background-position: center top;
 }
 #jojo7{
     background: url(imagens/jojo7.webp);
     background-size: cover;
     background-position: center;
+    background-position: center top;
 }
 #jojo8{
     background: url(imagens/jojo8.webp);
     background-size: cover;
+    background-position: center top;
 }
