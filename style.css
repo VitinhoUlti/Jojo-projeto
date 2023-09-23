@@ -273,6 +273,7 @@ body{
     position: absolute;
     margin-left: 2vw;
     border: 2px solid black;
+    overflow: unset;
 }
 .tj{
     width: 60vw;
@@ -299,9 +300,11 @@ body{
 }
 #j7{
     bottom: -560vh;
+    overflow: scroll;
 }
 #j8{
     bottom: -620vh;
+    overflow: scroll;
 }
 .imagensjojo{
     width: 30vw;
@@ -346,4 +349,65 @@ body{
     background: url(imagens/jojo8.webp);
     background-size: cover;
     background-position: center top;
+}
+
+#tabela2{
+    display: none;
+}
+#v1{
+    bottom: -200vh;
+}
+#v2{
+    bottom: -260vh;
+}
+#v3{
+    bottom: -320vh;
+}
+#v4{
+    bottom: -380vh;
+}
+#v5{
+    bottom: -440vh;
+}
+#v6{
+    bottom: -500vh;
+}
+#v7{
+    bottom: -560vh;
+}
+#v8{
+    bottom: -620vh;
+}
+
+#walpapers, #walpapers2{
+    display: flex;
+    bottom: -685vh;
+    width: 100vw;
+    height: 60vh;
+    position: absolute;
+    overflow: visible;
+    justify-content: center;
+}
+#walpapers2{
+    display: none;
+}
+#walpaper, #walpaper2{
+    width: 80vw;
+    height: 59vh;
+    background: url(imagens/alljoestar.jpg);
+    border: 2px solid black;
+}
+#walpaper2{
+    background: url(imagens/allvillains.webp);
+    background-size: cover;
+}
+#baixar, #baixarV1{
+    display: flex;
+    width: 3vw;
+    height: 5vh;
+    justify-content: center;
+    background-color: white;
+    border: 2px solid black;
+    margin-left: 1vw;
+    font-size: 4vh;
 }
