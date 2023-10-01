@@ -342,7 +342,6 @@ body{
 #jojo7{
     background: url(imagens/jojo7.webp);
     background-size: cover;
-    background-position: center;
     background-position: center top;
 }
 #jojo8{
@@ -410,4 +409,46 @@ body{
     border: 2px solid black;
     margin-left: 1vw;
     font-size: 4vh;
+}
+
+#vila1{
+    background: url(imagens/dio1.webp);
+    background-size: cover;
+    background-position: center top;
+}
+#vila2{
+    background: url(imagens/kars.webp);
+    background-size: cover;
+    background-position: center top;
+}
+#vila3{
+    background: url(imagens/dio3.jpg);
+    background-size: cover;
+    background-position: center top;
+}
+#vila4{
+    background: url(imagens/kira.png);
+    background-size: cover;
+    background-position: center top;
+}
+#vila5{
+    background: url(imagens/diavollo.png);
+    background-size: cover;
+    background-position: center top;
+}
+#vila6{
+    background: url(imagens/pucci.png);
+    background-size: cover;
+    background-position: center top;
+}
+#vila7{
+    background: url(imagens/valentine.webp);
+    background-size: cover;
+    background-position: center top;
+}
+#vila8{
+    background: url(imagens/tooru.webp);
+    background-size: cover;
+    background-position: center top;
+    height: 60vh;
 }
